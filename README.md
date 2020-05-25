@@ -1,6 +1,6 @@
 # Remote CPU Monitor
 
-### Author: Baiao Hou (implemented in C++, HTML, CSS, JavaScript)
+### Author: Baiao Hou  ***(implemented in C++, HTML, CSS, JavaScript)***
 
 Certain implementations of the UNIX operating system make information about the underlying hardware and the operating system itself available via files in the “/proc” directory. These are not actual files on the disk, but are rather like “device files” in the “/dev” directory in that they are a way of providing information using standard file I/O mechanisms. One such file is “/proc/stat”, which provides statistics about the amount of time the CPUs on the host machine spend doing various things like executing user processes, handling interaction with external devices, or doing nothing, which we call being “idle”.
 
